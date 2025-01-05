@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="400" height="300">
+  <!-- Hintergrund -->
+  <rect width="200" height="150" fill="lightblue" />
+
+  <!-- Sonne -->
+  <circle cx="0" cy="60" r="10" fill="yellow">
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <mpath href="#semicircle-path" />
+    </animateMotion>
+  </circle>
+ <!-- Halbkreis-Pfad -->
+  <path id="semicircle-path" d="M 20,50 A 80,80 0 0,1 180,50" fill="none" stroke="none" />
+
+  <!-- Text "PV-Prognose" -->
+  <text x="100" y="75" font-family="Arial" font-size="30" text-anchor="middle" font-weight="bold" fill="black">PV</text>
+
+  <!-- Solarmodule -->
+  <g transform="translate(20, 110)">
+    <!-- Erstes Modul -->
+    <rect x="0" y="0" width="40" height="70" fill="black" />
+    <g fill="	#4876ff">
+      <rect x="5" y="5" width="8" height="8" rx="1" />
+      <rect x="16" y="5" width="8" height="8" rx="1" />
+      <rect x="27" y="5" width="8" height="8" rx="1" />
+      <rect x="5" y="15" width="8" height="8" rx="1" />
+      <rect x="16" y="15" width="8" height="8" rx="1" />
+      <rect x="27" y="15" width="8" height="8" rx="1" />
+      <rect x="5" y="25" width="8" height="8" rx="1" />
+      <rect x="16" y="25" width="8" height="8" rx="1" />
+      <rect x="27" y="25" width="8" height="8" rx="1" />
+      <rect x="5" y="35" width="8" height="8" rx="1" />
+      <rect x="16" y="35" width="8" height="8" rx="1" />
+      <rect x="27" y="35" width="8" height="8" rx="1" />
+      <rect x="5" y="45" width="8" height="8" rx="1" />
+      <rect x="16" y="45" width="8" height="8" rx="1" />
+      <rect x="27" y="45" width="8" height="8" rx="1" />
+      <rect x="5" y="55" width="8" height="8" rx="1" />
+      <rect x="16" y="55" width="8" height="8" rx="1" />
+      <rect x="27" y="55" width="8" height="8" rx="1" />
+    </g>
+  </g>
+
+  <!-- Zweites Modul -->
+  <g transform="translate(60, 110)">
+    <rect x="0" y="0" width="40" height="70" fill="black" />
+    <g fill="	#4876ff">
+      <rect x="5" y="5" width="8" height="8" rx="1" />
+      <rect x="16" y="5" width="8" height="8" rx="1" />
+      <rect x="27" y="5" width="8" height="8" rx="1" />
+      <rect x="5" y="15" width="8" height="8" rx="1" />
+      <rect x="16" y="15" width="8" height="8" rx="1" />
+      <rect x="27" y="15" width="8" height="8" rx="1" />
+      <rect x="5" y="25" width="8" height="8" rx="1" />
+      <rect x="16" y="25" width="8" height="8" rx="1" />
+      <rect x="27" y="25" width="8" height="8" rx="1" />
+      <rect x="5" y="35" width="8" height="8" rx="1" />
+      <rect x="16" y="35" width="8" height="8" rx="1" />
+      <rect x="27" y="35" width="8" height="8" rx="1" />
+      <rect x="5" y="45" width="8" height="8" rx="1" />
+      <rect x="16" y="45" width="8" height="8" rx="1" />
+      <rect x="27" y="45" width="8" height="8" rx="1" />
+      <rect x="5" y="55" width="8" height="8" rx="1" />
+      <rect x="16" y="55" width="8" height="8" rx="1" />
+      <rect x="27" y="55" width="8" height="8" rx="1" />
+    </g>
+  </g>
+
+  <!-- Drittes Modul -->
+  <g transform="translate(100, 110)">
+    <rect x="0" y="0" width="40" height="70" fill="black" />
+    <g fill="	#4876ff">
+      <rect x="5" y="5" width="8" height="8" rx="1" />
+      <rect x="16" y="5" width="8" height="8" rx="1" />
+      <rect x="27" y="5" width="8" height="8" rx="1" />
+      <rect x="5" y="15" width="8" height="8" rx="1" />
+      <rect x="16" y="15" width="8" height="8" rx="1" />
+      <rect x="27" y="15" width="8" height="8" rx="1" />
+      <rect x="5" y="25" width="8" height="8" rx="1" />
+      <rect x="16" y="25" width="8" height="8" rx="1" />
+      <rect x="27" y="25" width="8" height="8" rx="1" />
+      <rect x="5" y="35" width="8" height="8" rx="1" />
+      <rect x="16" y="35" width="8" height="8" rx="1" />
+      <rect x="27" y="35" width="8" height="8" rx="1" />
+      <rect x="5" y="45" width="8" height="8" rx="1" />
+      <rect x="16" y="45" width="8" height="8" rx="1" />
+      <rect x="27" y="45" width="8" height="8" rx="1" />
+      <rect x="5" y="55" width="8" height="8" rx="1" />
+      <rect x="16" y="55" width="8" height="8" rx="1" />
+      <rect x="27" y="55" width="8" height="8" rx="1" />
+    </g>
+  </g>
+
+  <!-- Viertes Modul -->
+  <g transform="translate(140, 110)">
+    <rect x="0" y="0" width="40" height="70" fill="black" />
+    <g fill="	#4876ff">
+      <rect x="5" y="5" width="8" height="8" rx="1" />
+      <rect x="16" y="5" width="8" height="8" rx="1" />
+      <rect x="27" y="5" width="8" height="8" rx="1" />
+      <rect x="5" y="15" width="8" height="8" rx="1" />
+      <rect x="16" y="15" width="8" height="8" rx="1" />
+      <rect x="27" y="15" width="8" height="8" rx="1" />
+      <rect x="5" y="25" width="8" height="8" rx="1" />
+      <rect x="16" y="25" width="8" height="8" rx="1" />
+      <rect x="27" y="25" width="8" height="8" rx="1" />
+      <rect x="5" y="35" width="8" height="8" rx="1" />
+      <rect x="16" y="35" width="8" height="8" rx="1" />
+      <rect x="27" y="35" width="8" height="8" rx="1" />
+      <rect x="5" y="45" width="8" height="8" rx="1" />
+      <rect x="16" y="45" width="8" height="8" rx="1" />
+      <rect x="27" y="45" width="8" height="8" rx="1" />
+      <rect x="5" y="55" width="8" height="8" rx="1" />
+      <rect x="16" y="55" width="8" height="8" rx="1" />
+      <rect x="27" y="55" width="8" height="8" rx="1" />
+    </g>
+  </g>
+</svg>
