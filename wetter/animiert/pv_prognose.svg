@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="400" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 15 200 160" width="400" height="300">
   <!-- Hintergrund -->
   <rect width="200" height="150" fill="lightblue" />
 
   <!-- Sonne -->
-  <circle cx="0" cy="60" r="10" fill="yellow">
+  <circle cx="0" cy="60" r="14" fill="yellow">
     <animateMotion dur="5s" repeatCount="indefinite">
       <mpath href="#semicircle-path" />
     </animateMotion>
@@ -15,7 +15,7 @@
   <text x="100" y="75" font-family="Arial" font-size="30" text-anchor="middle" font-weight="bold" fill="black">PV</text>
 
   <!-- Solarmodule -->
-  <g transform="translate(20, 110)">
+  <g transform="translate(14, 90)">
     <!-- Erstes Modul -->
     <rect x="0" y="0" width="40" height="70" fill="black" />
     <g fill="	#4876ff">
@@ -41,7 +41,7 @@
   </g>
 
   <!-- Zweites Modul -->
-  <g transform="translate(60, 110)">
+  <g transform="translate(56, 90)">
     <rect x="0" y="0" width="40" height="70" fill="black" />
     <g fill="	#4876ff">
       <rect x="5" y="5" width="8" height="8" rx="1" />
@@ -66,7 +66,7 @@
   </g>
 
   <!-- Drittes Modul -->
-  <g transform="translate(100, 110)">
+  <g transform="translate(98, 90)">
     <rect x="0" y="0" width="40" height="70" fill="black" />
     <g fill="	#4876ff">
       <rect x="5" y="5" width="8" height="8" rx="1" />
@@ -91,7 +91,7 @@
   </g>
 
   <!-- Viertes Modul -->
-  <g transform="translate(140, 110)">
+  <g transform="translate(140, 90)">
     <rect x="0" y="0" width="40" height="70" fill="black" />
     <g fill="	#4876ff">
       <rect x="5" y="5" width="8" height="8" rx="1" />
