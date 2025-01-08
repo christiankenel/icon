@@ -27,5 +27,5 @@
 		<animateTransform attributeName="transform" type="translate" values="-0.1 1; 0 0; -0.1 -1; 0 0; -0.1 1" dur="1s" begin="-0.2s" repeatCount="indefinite"/>
 	</g>
 	<!-- Text "km/h" unten rechts -->
-	<text x="45" y="45" font-family="Arial" font-size="8" text-anchor="end" fill="black">km/h</text>
+	<text x="47" y="45" font-family="Arial" font-size="9" text-anchor="end" fill="black" font-weight="bold">km/h</text>
 </svg>
