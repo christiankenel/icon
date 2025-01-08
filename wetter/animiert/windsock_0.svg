@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="16 15 31 34">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="14 14 36 36">
 	<defs>
 		<linearGradient id="a" x1="11.25" y1="19.45" x2="25.75" y2="44.55" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#d4d7dd"/>
@@ -26,4 +26,6 @@
 		<path d="M41.22,19.4l3.6.53a.79.79,0,0,1,.68.79v4.67a.8.8,0,0,1-.68.79l-3.6.52a.79.79,0,0,1-.91-.79V20.19A.8.8,0,0,1,41.22,19.4Z" stroke="#ef4444" stroke-miterlimit="10" stroke-width="0.5" fill="url(#d)"/>
 		<animateTransform attributeName="transform" type="translate" values="-0.1 1; 0 0; -0.1 -1; 0 0; -0.1 1" dur="1s" begin="-0.2s" repeatCount="indefinite"/>
 	</g>
+	<!-- Text "km/h" unten rechts -->
+	<text x="45" y="45" font-family="Arial" font-size="8" text-anchor="end" fill="black">km/h</text>
 </svg>
